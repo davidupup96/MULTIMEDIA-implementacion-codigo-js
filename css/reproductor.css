@@ -170,7 +170,9 @@ footer{
     top: 35%;
     left: 25%;
     position:absolute;
-    background-color: rgba(192,35,43,.8);
+    box-shadow: #666666;
+    box-sizing: border-box;
+    background-color: rgba(236, 9, 9, 0.8);
     cursor:pointer;
 }
 #box3 {
@@ -178,10 +180,66 @@ footer{
     width: 20%;
     top: 35%;
     right: 25%;
+    box-shadow: #666666;
+    box-sizing: border-box;
     position:absolute;
-    background-color: rgba(40,116,166,.8);
+    background-color: rgba(33,97,140, 0.8);
     cursor:pointer;
 }
+#box4{
+    position: absolute;
+    height: 300px;
+    width: 60%;
+    left: 20%;
+    top: 25%;
+    background-color:rgba(252, 244, 244, 0.8) ;
+    text-align: center;
+}
+#box5 {
+    height: 70px;
+    width: 20%;
+    top: 35%;
+    left: 25%;
+    position:absolute;
+    box-shadow: #666666;
+    box-sizing: border-box;
+    background-color: rgba(255, 249, 249, 0.8);
+    cursor:pointer;
+}
+#box6 {
+    height: 70px;
+    width: 20%;
+    top: 35%;
+    right: 25%;
+    position:absolute;
+    box-shadow: #666666;
+    box-sizing: border-box;
+    background-color: rgba(255, 249, 249, 0.8);
+    cursor:pointer;
+}
+#box7 {
+    height: 70px;
+    width: 20%;
+    top: 50%;
+    left: 25%;
+    position:absolute;
+    box-shadow: #666666;
+    box-sizing: border-box;
+    background-color: rgba(255, 249, 249, 0.8);
+    cursor:pointer;
+}
+#box8 {
+    height: 70px;
+    width: 20%;
+    top: 50%;
+    right: 25%;
+    position:absolute;
+    box-shadow: #666666;
+    box-sizing: border-box;
+    background-color: rgba(255, 249, 249, 0.8);
+    cursor:pointer;
+}
+
 /*
 #botones{
     float: left;
